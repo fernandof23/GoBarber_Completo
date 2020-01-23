@@ -1,19 +1,6 @@
-# GoBarber
-> App para controle de Barbearia, controle dos prestadores de serviço, dos clientes, e dos agendamentos.
 
 
-
-### App de Barbearia com controle total sobre:
-
-- Controle e cadastro dos Barbeiros/Providers.
-- Cadastro dos Clientes.
-- Solicitação de agendamento de Horario pelo cliente, para um barbeiro escolhido.
-- Notificação para o barbeiro dos agendamentos feitos no dia, ou na data escolhida.
-- Cancelamento do agendamento com ate 2 horas de antecedência.
-- Envio de e-mail para o barbeiro em caso de cancelamento de agendamento.
-
-
-## API desenvolvida com as tecnologias:
+## API GoBarber desenvolvida com as tecnologias:
 
 - NodeJs.
 - Express.
