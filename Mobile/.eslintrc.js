@@ -34,4 +34,12 @@ module.exports = {
         'react/state-in-constructor': 'off',
         'react/static-property-placement': 'off'
     },
+
+    settings: {
+        "import/resolver": {
+            "babel-plugin-root-import": {
+                rootPathSuffix: "src"
+            }
+        }
+    }
 };
