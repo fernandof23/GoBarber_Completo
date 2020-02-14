@@ -3,11 +3,11 @@ import { View, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-export default function Teste() {
+export default function SignIn() {
     return (
         <View>
             <Text>Hello World</Text>
-            <Text>Mais Texto2</Text>
+            <Text>SignIn</Text>
         </View>
     );
 }
