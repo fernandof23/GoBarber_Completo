@@ -1,24 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, Text } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 
-// import { Container } from './styles';
+import { Text } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import Background from '~/components/Background';
 
-export default function Dashboard() {
+// import { Container } from './styles';
+
+export default function Profile() {
     return (
         <Background>
-            <Text>Teste</Text>
+            <Text>Profile</Text>
         </Background>
     );
 }
 
 const tabBarIcon = ({ tintColor }) => (
-    <Icon name="event" size={20} color={tintColor} />
+    <Icon name="person" size={20} color={tintColor} />
 );
 
-Dashboard.navigationOptions = {
+Profile.navigationOptions = {
     tabBarLabel: 'Agendamentos',
     tabBarIcon,
 };
