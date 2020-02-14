@@ -1,15 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-// import { Container } from './styles';
 import Background from '~/components/Background';
+import Appointments from '~/components/Appointments';
+
+import { Container, Title, List } from './styles';
 
 export default function Dashboard() {
+    const data = [1, 2, 3, 4, 5, 6];
     return (
         <Background>
-            <Text>Teste</Text>
+            <Container>
+                <Title>Agendamentos</Title>
+
+                <List
+                    data={data}
+                    keyExtractor={item => String(item)}
+                    renderItem={({ item }) => <Appointments data={item} />}
+                />
+            </Container>
         </Background>
     );
 }
