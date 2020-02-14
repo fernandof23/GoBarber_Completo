@@ -20,9 +20,13 @@
 - Cancelamento do agendamento com ate 2 horas de antecedência.
 - Envio de e-mail para o barbeiro em caso de cancelamento de agendamento.
 
+</br>
 
 
 
+>Tela Inicial da aplicação
+
+<img src="./FrontEnd/Imagens_App/home.png"></img>
 
 
 
