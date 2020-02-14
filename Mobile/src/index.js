@@ -7,6 +7,7 @@ export default function src() {
     return (
         <View>
             <Text>Hello World</Text>
+            <Text>Mais Texto</Text>
         </View>
     );
 }
