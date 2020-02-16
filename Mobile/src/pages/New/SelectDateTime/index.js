@@ -34,7 +34,7 @@ export default function SelectDateTime({ navigation }) {
     }, [date, provider.id]);
 
     function handleSelectHour(time) {
-        navigation.navigate('Confirm', provider, time);
+        navigation.navigate('Confirm', { provider, time });
     }
 
     return (

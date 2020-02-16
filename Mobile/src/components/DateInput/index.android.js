@@ -26,7 +26,6 @@ export default function DateTimeInput({ date, onChange }) {
         }
     }
 
-    console.tron.log(dateFormated);
     return (
         <Container>
             <DateButton onPress={handleOpenPicker}>
