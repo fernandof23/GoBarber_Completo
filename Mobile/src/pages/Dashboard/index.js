@@ -69,4 +69,8 @@ tabBarIcon.propTypes = {
     tintColor: PropTypes.string.isRequired,
 };
 
+Dashboard.propTypes = {
+    isFocused: PropTypes.bool.isRequired,
+};
+
 export default withNavigationFocus(Dashboard);
