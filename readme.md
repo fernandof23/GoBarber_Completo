@@ -1,3 +1,14 @@
+<h1 align="center">
+  <img alt="GoBarber" title="GoBarber" src="./src/assets/logo.png" width="200px" />
+</h1>
+
+<h3 align="center">
+  GoBarber
+</h3>
+
+
+
+
 # GoBarber
 > App para controle de Barbearia, controle dos prestadores de serviço, dos clientes, e dos agendamentos.
 
@@ -24,10 +35,15 @@
 
 
 
->Tela Inicial da aplicação
+>Tela Inicial da aplicação Web
 
 <img src="./FrontEnd/Imagens_App/home.png"></img>
 
+>Tela login aplicação Mobile
+<img src="./images/mobile/login.png"></img>
+
+
+>Dentro da pasta de cada aplicação, tem mais fotos!
 
 
 ## Criado por:
