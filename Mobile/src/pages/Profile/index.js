@@ -127,7 +127,7 @@ const tabBarIcon = ({ tintColor }) => (
 );
 
 Profile.navigationOptions = {
-    tabBarLabel: 'Agendamentos',
+    tabBarLabel: 'Meu Perfil',
     tabBarIcon,
 };
 
