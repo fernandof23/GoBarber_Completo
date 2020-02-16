@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TouchableOpacity, Text } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import DateInput from '~/components/DateInput';
@@ -14,7 +14,6 @@ export default function SelectDateTime() {
         <Background>
             <Container>
                 <DateInput date={date} onChange={setDate} />
-                <Text>Teste</Text>
             </Container>
         </Background>
     );
